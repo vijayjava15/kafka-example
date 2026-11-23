@@ -1,0 +1,8 @@
+services:
+  enrollment-service:
+    build:
+      context: .
+      args:
+        SERVICE: enrollment-service
+    ports:
+      - "127.0.0.1:8080:8080"
